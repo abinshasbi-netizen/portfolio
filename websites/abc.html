@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Papergrid Nav Hover Test</title>
+<style>
+  /* container */
+  .kid {
+    background-color: black;
+    display: flex;
+    align-items: baseline; /* keep text baseline aligned */
+    gap: 24px;
+    padding: 18px 24px;
+    color: white;
+  }
+
+  /* nav group next to the heading */
+  .kid nav {
+    display: flex;
+    gap: 16px;
+    margin-left: 8px; /* small gap between H1 and links */
+    align-items: baseline;
+  }
+
+  /* default link look */
+  .kid a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.85;                     /* use number between 0 and 1 */
+    padding: 6px 4px;
+    transition: opacity 180ms ease, text-decoration-color 180ms ease;
+    font-size: 18px;
+  }
+
+  /* all links: faded when hovered */
+  .kid a:hover {
+    opacity: 0.45;                      /* fade other links on hover */
+    text-decoration: underline;
+    text-decoration-color: rgba(255,255,255,0.45);
+  }
+
+  /* special link (class "spc"): keep full opacity on hover */
+  .kid a.spc {
+    opacity: 0.95;                      /* slightly brighter by default */
+  }
+  .kid a.spc:hover {
+    opacity: 1;                         /* full opacity when hovered */
+    text-decoration: underline;
+    text-decoration-color: rgba(255,255,255,1);
+  }
+
+  /* small responsive tweak */
+  @media (max-width:520px) {
+    .kid { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .kid nav { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="kid">
+  <h1 style="margin:0; color: white;">Papergrid</h1>
+
+  <nav>
+    <!-- special link -->
+    <a href="#" class="spc">Home</a>
+
+    <!-- other links -->
+    <a href="#">About</a>
+    <a href="#">Shop</a>
+    <a href="#">Contact</a>
+  </nav>
+</div>
+
+</body>
+</html>

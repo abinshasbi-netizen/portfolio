@@ -1,0 +1,185 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins',sans-serif;
+    font-size: medium;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.kid h1{
+font-size: 27px;
+font-weight: 10;
+
+}
+.ppd{    
+font-size: 27px;
+font-weight: 10;
+text-decoration: none;
+
+}
+
+.kid{
+   
+background-color: black;    
+display: flex;
+align-items: baseline;
+gap: 50px;
+
+
+
+}
+.kid a{
+
+    margin-top: 50px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    opacity: 85%;
+    
+}
+.kid a:hover{
+text-decoration:underline;
+text-decoration-color: rgb(255, 255, 255,0.8) ;
+opacity: 100%;
+
+}
+.kid a.spc{
+    opacity:100%;
+    text-decoration: underline;             
+    text-decoration-color:rgb(255, 255, 255,0.7);
+}
+
+.kid a.spc:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255,1.0)
+    
+}
+table img{
+
+width: 370px;
+height: 380px;
+}
+table td{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+
+}
+
+table{
+    
+    margin: auto;
+}
+aside img{
+   height: 500px;
+   width: 400px;
+   margin-left: 150px;
+
+}
+aside h1{
+    
+    font-size: 25px;
+    font-weight: 30;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+aside h2{
+    
+    font-size: 20px;
+    font-weight: 1;
+    padding-left: 80px;
+    padding-top: 5px;
+    color: rgba(0, 0, 0, 0.6);
+}
+aside button {
+    
+   margin-left: 80px;
+   padding: 15px 35px; 
+   margin-top: 20px;
+   background-color: black;
+   color: white;
+   font-size: large;
+
+}
+
+aside button a{
+color: white;
+text-decoration: none;
+}
+
+.bot p{
+
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.ex p a{
+ 
+    color: rgba(255, 255, 255, 0.708);
+    text-decoration: underline;
+}
+.ex p a:hover{
+ 
+    color: rgba(255, 255, 255);
+    text-decoration-color:white;
+}
+.insta-icon {
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+
+.insta-icon:hover {
+  font-size: 20px;
+}
+footer{
+
+    font-size: 13px;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.71);
+    border-top:0.1px solid grey; 
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    display: flex;
+    gap: 5px;
+    
+
+}
+footer a{
+
+    color: rgba(255, 255, 255, 0.71);
+    text-decoration: none;
+}
+footer a:hover{
+
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.ftr{
+
+    padding-left: 5px;
+}
+.icon{
+
+    color: white;
+    font-size: 20px;
+    transition: 0.2s ease;
+}
+.icon:hover{
+
+    color: white;
+    font-size: 22px;
+}
+    
+
+
